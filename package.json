@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-fonts",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Cordova Fonts plugin",
   "keywords": [
     "cordova",
@@ -20,10 +20,10 @@
   "cordova": {
     "id": "cordova-plugin-fonts",
     "platforms": [
-        "android",
-        "browser",
-        "electron",
-        "ios"
+      "android",
+      "browser",
+      "electron",
+      "ios"
     ]
   },
   "main": "fonts.js",
@@ -42,10 +42,12 @@
   "author": "Erik Brommers",
   "engines": {
     "cordovaDependencies": {
-      "1.0.0": { "cordova": ">11.0.0" }
-    }  
+      "1.0.0": {
+        "cordova": ">11.0.0"
+      }
+    }
   },
   "devDependencies": {
-    "jshint": "^2.6.0"  
+    "jshint": "^2.6.0"
   }
 }
